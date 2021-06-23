@@ -1,44 +1,52 @@
-.green {
-  width: 75px;
-  height: 75px;
-  background-color: rgb(8, 153, 8);
+#bar {
+  height: 200px;
+  width: 120px;
+}
+
+#box {
+  height: 600px;
+  width: 300px;
+    padding-top: 2em;
+}
+
+.light {
+  height: 175px;
+  width: 175px;
   border-radius: 50%;
-  display: inline-block;
+  margin-bottom: 10px;
+  background-image: url("dots.png");
+  background-size: contain;
+}
+
+.red{
+  background-color: red;
 }
 
 .yellow {
-  width: 75px;
-  height: 75px;
-  background-color: rgb(209, 212, 3);
-  border-radius: 50%;
-  display: inline-block;
+  background-color: yellow;
 }
 
-.red {
-  width: 75px;
-  height: 75px;
-  background-color: rgb(212, 9, 9);
-  border-radius: 50%;
-  display: inline-block;
+.green {
+  background-color: rgb(11, 190, 11);
 }
 
-.block  {
-  width: 120px;
-  height: 250px;
-  background-color: grey;
-  display: inline-block;
+.bg-black {
+  background-color: rgb(36, 35, 35);
 }
 
-.lights {
-  -ms-flex-align: center;
-  
+.mx-auto {
+  margin-left: auto;
+  margin-right: auto;
 }
 
-.center {
-  text-align: center;
-  justify-content: space-between;
-  display:block;
-  margin-left:auto;
-  margin-right:auto;
-  margin-top: 5em;
+.red:hover {
+  filter: drop-shadow(1px 0px 20px red)
+}
+
+.yellow:hover {
+  filter: drop-shadow(1px 0px 20px yellow)
+}
+
+.green:hover {
+  filter: drop-shadow(1px 0px 20px rgb(83, 218, 83))
 }
